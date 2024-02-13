@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     const optionsTimer = setTimeout(() => {
       setShowOptions(true);
-    }, 1000);
+    }, 10000);
 
     if (showOptions) {
       clearTimeout(optionsTimer);

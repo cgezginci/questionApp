@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 
 function Questions({ question, options, media, onNext, showOptions }) {
-  /* useEffect(() => {
+  useEffect(() => {
     const timer = setTimeout(() => {
       onNext();
     }, 20000);
 
     return () => clearTimeout(timer);
   }, [onNext]);
-*/
 
   return (
     <div className="content">
